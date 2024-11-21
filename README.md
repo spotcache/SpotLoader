@@ -1,18 +1,13 @@
-# Spotify Song Downloader & Ad Blocker Browser Extension  
+# Spotify Ad Blocker Browser Extension  
 
 ## 🎵 Overview  
-The Spotify Song Downloader & Ad Blocker is a browser extension that enables users to download their favorite Spotify tracks directly to their devices while also blocking ads for an uninterrupted listening experience. This extension is lightweight, fast, and designed to enhance your Spotify experience.  
+The Spotify Ad Blocker is a browser extension that enables users to block ads for an uninterrupted listening experience. This extension is lightweight, fast, and designed to enhance your Spotify experience.  
 
 ⚠️ **Disclaimer**: This extension is intended for personal and educational purposes only. Please ensure you comply with Spotify's Terms of Service and your local copyright laws.  
 
 ---
 
-## 🚀 Features  
-### Song Downloader  
-- Download Spotify songs with a single click.  
-- Save audio in MP3, FLAC, or WAV formats.  
-- Automatically fetch song metadata (artist, album, cover art).  
-- Lightweight and easy to install.  
+## 🚀 Features
 
 ### Ad Blocker  
 - Skip all Spotify ads automatically.  
@@ -24,10 +19,12 @@ The Spotify Song Downloader & Ad Blocker is a browser extension that enables use
 ## 🛠 Installation  
 
 ### 1. Clone the Repository  
-Run the following commands in your terminal to clone the repository:  
+Run the following commands in your terminal to clone the repository: 
 
+```
 git clone https://github.com/spotcache/SpotLoader.git  
 cd SpotLoader
+```
 
 ### 2. Load the Extension in Your Browser
 Open your browser and go to the extensions page:
@@ -35,6 +32,7 @@ Open your browser and go to the extensions page:
 Chrome: chrome://extensions/
 Edge: edge://extensions/
 Firefox: about:debugging#/runtime/this-firefox
+Brave: brave://extensions/
 
 ## Enable Developer Mode or equivalent.
 
@@ -58,7 +56,6 @@ Pull requests are welcome! For significant changes, please open an issue to disc
 This extension is intended for personal and educational use only. Downloading copyrighted material without authorization may violate copyright laws. Please use responsibly.
 
 ### File Summary:  
-1. The features of both the downloader and ad blocker are combined in a coherent structure.  
-2. Installation instructions include both cloning the repository and loading it into the browser.  
-3. Ad blocker functionality is described in its own section.  
-4. Legal disclaimers and license information are clearly included.  
+1. Installation instructions include both cloning the repository and loading it into the browser.  
+2. Ad blocker functionality is described in its own section.  
+3. Legal disclaimers and license information are clearly included.  

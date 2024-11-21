@@ -1,13 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Spotify Enhancer",
-  "version": "1.1",
-  "description": "Improves the Spotify experience by skipping ads, enabling downloads, and providing custom features.",
+  "version": "1.101",
+  "description": "Improves the Spotify experience by skipping ads, and providing custom features.",
   "icons": {
     "128": "img/icon.png"
   },
   "action": {
-    "default_popup": "popup.html",
     "default_icon": "img/icon.png"
   },
   "content_scripts": [
@@ -32,9 +31,7 @@
     "*://*.audio-fa.scdn.co/*"
   ],
   "permissions": [
-    "declarativeNetRequest",
-    "downloads",
-    "storage"
+    "declarativeNetRequest"
   ],
   "declarative_net_request": {
     "rule_resources": [
