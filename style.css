@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #1ed760;
+  }
+  
+  .progress-container {
+    width: 100%;
+    background: #f3f3f3;
+    border-radius: 25px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    width: 0%;
+    background: #1DB954;
+    border-radius: 25px;
+    transition: width 0.2s;
+  }
+  
+  #progressText {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }  
+
+button[title="Upgrade to Premium"],
+button[title="Effettua l'upgrade a Premium"],
+div[data-testid="test-ref-div"],
+a[href="/download"],
+a[href="https://www.spotify.com/premium/"],
+a[href="https://www.spotify.com/premium/?ref=web_loggedin_upgrade_menu"] {
+    display: none !important;
+}
