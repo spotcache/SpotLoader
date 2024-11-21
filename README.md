@@ -27,18 +27,20 @@ The Spotify Song Downloader & Ad Blocker is a browser extension that enables use
 Run the following commands in your terminal to clone the repository:  
 
 git clone https://github.com/spotcache/SpotLoader.git  
-cd SpotLoader  
-2. Load the Extension in Your Browser
+cd SpotLoader
+
+### 2. Load the Extension in Your Browser
 Open your browser and go to the extensions page:
 
 Chrome: chrome://extensions/
 Edge: edge://extensions/
 Firefox: about:debugging#/runtime/this-firefox
-Enable Developer Mode or equivalent.
+
+## Enable Developer Mode or equivalent.
 
 Click on "Load unpacked" and select the folder where the repository was cloned.
 
-🛡 Ad Blocker Functionality
+## 🛡 Ad Blocker Functionality
 This extension includes ad-blocking capabilities to provide an uninterrupted Spotify listening experience. Ads are blocked by redirecting ad-related requests to blank audio files. Here's how it works:
 
 Ads are replaced with a silent, blank audio file (blank.mp3).
@@ -46,13 +48,13 @@ Key ad domains such as audio-ak-spotify-com.akamaized.net and audio-fa.scdn.co a
 Implementation Details
 The ad-blocking functionality is defined in the rules.json file using declarativeNetRequest rules, ensuring minimal impact on browser performance.
 
-📜 License
+## 📜 License
 This extension is licensed under the MIT License.
 
-🔧 Contributing
+## 🔧 Contributing
 Pull requests are welcome! For significant changes, please open an issue to discuss your ideas first.
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 This extension is intended for personal and educational use only. Downloading copyrighted material without authorization may violate copyright laws. Please use responsibly.
 
 ### File Summary:  
