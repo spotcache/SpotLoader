@@ -30,9 +30,14 @@ cd SpotLoader
 Open your browser and go to the extensions page:
 
 Chrome: chrome://extensions/
+
 Edge: edge://extensions/
+
 Firefox: about:debugging#/runtime/this-firefox
+
 Brave: brave://extensions/
+
+# Drag and drop the original repo folder into your browser's extensions page.
 
 ## Enable Developer Mode or equivalent.
 
